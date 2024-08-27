@@ -1,22 +1,28 @@
-; This script creates a transparent, always-on-top window with the full table to help those learning their hebrew for Talmud Translation Designed and created by GQuest
+; This script creates a transparent, always-on-top window with the full table to help those learning Hebrew for Talmud Translation Designed and created ©️ GStarSade 2024 (https://github.com/GStarSade/Visual_Hebrew_AHK_Helper)
+
+; fetch the current monitor size and display the window above the window taskbar
+screenWidth := A_ScreenWidth
+yCoordinate := "y" A_ScreenHeight - 230
 
 ; Create a new GUI window
 OnScreenGui := Gui("+AlwaysOnTop +ToolWindow -SysMenu")
+
+; Hotkey to exit the script
+^Esc::ExitApp
+
+; Define a hotkey to reload the script
 ^#!r::Reload
-; Set the background color and font for the GUI
+
+; Set the font, font size and font colour for the GUI and redundancies
 OnScreenGui.SetFont("cWhite s12", "Arial")
 OnScreenGui.SetFont("cWhite s12", "Aharoni")
 OnScreenGui.SetFont("cWhite s12", "David")
+
+; Set the background color for the GUI to invisble
 OnScreenGui.BackColor := "000000"
 WinSetTransColor("000000", OnScreenGui) 
 WinSetTransparent(190, OnScreenGui)
 OnScreenGui.Opt("-Caption")
-
-; Set transparency (0-255, where 0 is fully transparent and 255 is fully opaque)
-; OnScreenGui.SetTransparent(200)
-
-;MyGui.BackColor := "EEAA99"
-;OnScreenGui.SetFont("Arial", "s10", "cWhite")
 
 ; Define the entire table, split into multiple adjacent sets
 Hebrew1 := "
@@ -114,6 +120,7 @@ Yud Vav                +g     ױ     oy
 Exit = Ctrl+Esc
 )"
 
+;line to go in between each set
 HebrewLine := "
 (
 |||
@@ -144,7 +151,4 @@ OnScreenGui.Add("Text", "x+5 vTableG w10 h127", HebrewLine)
 OnScreenGui.Add("Text", "x+5 vTable8 w200 h127", Hebrew8)
 
 ; Show the GUI window
-OnScreenGui.Show("x000 y850 h140 w1530")
-
-; Define a hotkey to exit the script
-^Esc::ExitApp
+OnScreenGui.Show("x000" yCoordinate "h140 w1530")

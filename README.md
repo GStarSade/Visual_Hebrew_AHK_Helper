@@ -5,7 +5,7 @@ Built in v2 AHK GUI creates a GUI of Hebrew letters, sounds, keys and Jastrow Pg
 **Please be sure to review the code before running any software.** While simple programs like this are relatively easy to inspect, it is your responsibility to ensure that the code meets your standards for safety and functionality. By downloading and using this software, you agree that the author(s) and contributors are not liable for any damages or issues that may arise from its use.
 
 # Expected action
-When run this file will generate a semi transparent window at the bottom of your laptop screen showing hebrew characters, sounds and keyboard keys needed to type as well as the Jastrow page number. This was built and designed for those who are studying talmud text at the beginner level.
+When run this file will generate a semi transparent window at the bottom of your laptop screen just above the windows taskbar showing Hebrew characters, sounds and keyboard keys needed to type as well as the Jastrow page number. This was built and designed for those who are studying Talmud text at the beginner level.
 
 # Installation
 1. Go to https://www.autohotkey.com/ and install Autohotkey v.2.0
@@ -17,9 +17,10 @@ This program uses the following fonts to display Hebrew, if the first font in th
 3. Arial
 
 # Modification
-This program was designed and built on a laptop 1519 × 695px this application will not alter for different screensize and is designed as a proof of concept. You will need to at least alter where it generates 
+This program was designed and built on a laptop 1519 × 695px this application will try to alter for different screensizes and appear just above the windows taskbar and is designed as a proof of concept. You will need to at least alter where it generates 
 ```
-OnScreenGui.Show("x000 y850 h140 w1530")
+yCoordinate := "y" A_ScreenHeight - 230
+OnScreenGui.Show("x000" yCoordinate "h140 w1530")
 ```
 Is the default, change the second number in y, to change the how far down your screen the image appears in a text editor and re-run the file. This is why the file is not an executable as you will need to test and work out where it ends up on your screen
 
