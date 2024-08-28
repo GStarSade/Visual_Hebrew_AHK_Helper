@@ -67,7 +67,7 @@ Cool, been there. TL:DR Version:
 
 ## What they want.
 
-Want you to set up this tool for them because they saw someone else use it. The tool doesn't add a keyboard language; it just assists them in using it as a cheat sheet. This has only been tested on a UK Windows Keyboard layout.
+For you yo to add a Hebrew input langauge and to set up this tool for them. The tool doesn't add a keyboard input language; it just assists them in using it as a cheat sheet. This has only been tested on a UK Windows Keyboard layout.
 
 ## Instructions
 
