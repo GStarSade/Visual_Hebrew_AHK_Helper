@@ -1,8 +1,20 @@
 # Visual Hebrew AutoHotKey Helper
-Built in v2 AHK GUI creates a GUI of Hebrew letters, sounds, keys and Jastrow Pg Number
+Built in v2 AHK GUI creates a helpfu GUI table which shows Hebrew letters, sounds, keys and Jastrow Pg Number
 
 ## Disclaimer
 **Please be sure to review the code before running any software.** While simple programs like this are relatively easy to inspect, it is your responsibility to ensure that the code meets your standards for safety and functionality. By downloading and using this software, you agree that the author(s) and contributors are not liable for any damages or issues that may arise from its use.
+
+# My Rabbi, Old person, Illiterate Tech friend send me this?
+
+Cool ans also been there. TL:DR Version 
+1. Install Language Keyboard and show them how to switch been it and their language
+    1. Windows: https://support.microsoft.com/en-gb/windows/manage-the-input-and-display-language-settings-in-windows-12a10cb4-8626-9b77-0ccb-5013e0c7c7a2
+    2.Mac: https://support.apple.com/en-hk/guide/mac-help/mchlp1406/mac
+    3. Ubuntu: https://help.ubuntu.com/stable/ubuntu-help/keyboard-layouts.html.en
+2. Install Autohotkey V2
+3. Downlaod the AHK file in this repo
+4. Run file to see it appoears correctly show them how to do this.
+5. Tell and show by pressing Ctrl + Esc Closes the program 
 
 # Expected action
 When run this file will generate a semi transparent window at the bottom of your laptop screen just above the windows taskbar showing Hebrew characters, sounds and keyboard keys needed to type as well as the Jastrow page number. This was built and designed for those who are studying Talmud text at the beginner level.
