@@ -61,7 +61,7 @@ To save space, the names of different columns are abbreviated. This shows what e
 | L | Letter | This is the letter written in Hebrew script |
 | S | Sound | This is the sound the letter makes, makes. Note: Written from a personal perspective; you may have better ways to pronounce it. This also does not reference complex vowel pairings|
 | Jp | Jastrow Page Number | In the standard Jastrow, this is the page number where this letter first appears, to help you jump to that page when translating |
-| + | AltGr | When typing on a Hebrew keyboard, you sometimes need to press AltGr (aka Right Alt) to type in characters. In this instance, hold down AltGr and type in the letter next to it to add the vowel |
+| + | AltGr | When typing on a Hebrew keyboard, you sometimes need to press `AltGr` (aka `Right Alt`) to type in characters. In this instance, **hold down** `AltGr` and type in the letter next to it to add the vowel |
 
 # My Rabbi, Friend etc. sent me this?
 
