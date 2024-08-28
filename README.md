@@ -2,6 +2,8 @@
 
 Built in v2 AHK. this GUI creates a helpful table that displays Hebrew letters, sounds, keys, and Jastrow page numbers on the screen. It is what some would consider a "cheat sheet", designed for those who are studying Talmud text at a beginner level.
 
+ ![Screenshot 1 of v2 of Visual Hebrew AutoHotKey Helper](/Screenshot%201%20of%20v2%20of%20Visual%20Hebrew%20AutoHotKey%20Helper.png)
+
 ## Disclaimer
 
 **Please be sure to review the code before running any software.** While simple programs like this are relatively easy to inspect, it is your responsibility to ensure that the code meets your standards for safety and functionality. By downloading and using this software, you agree that the author(s) and contributors are not liable for any damages or issues that may arise from its use.
