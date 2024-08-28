@@ -23,7 +23,6 @@ You can use [Issues](https://github.com/GStarSade/Visual_Hebrew_AHK_Helper/issue
 
 When run, this file will generate a semi-transparent window at the bottom of your laptop screen, just above the Windows taskbar, showing Hebrew characters, sounds, the keyboard keys needed to type them, and the Jastrow page number. **You cannot click through the window**; if something is behind it that you need to click on, you will need to close the program first.
 
-
 ## Fonts
 
 This program uses the following fonts to display Hebrew. If the first font in this list is not present, the next font will apply. Ensure you have one of these fonts installed, or you could modify the code to use a font that you do have, which can display both English and Hebrew characters:
@@ -62,6 +61,8 @@ To save space, the names of different columns are abbreviated. This shows what e
 | S | Sound | This is the sound the letter makes, makes. Note: Written from a personal perspective; you may have better ways to pronounce it. This also does not reference complex vowel pairings|
 | Jp | Jastrow Page Number | In the standard Jastrow, this is the page number where this letter first appears, to help you jump to that page when translating |
 | + | AltGr | When typing on a Hebrew keyboard, you sometimes need to press `AltGr` (aka `Right Alt`) to type in characters. In this instance, **hold down** `AltGr` and type in the letter next to it to add the vowel |
+| - | Short | Used within vowel, means you make a short sound when using |
+| _ | Long | Used within vowel, means you make a long sound when using |
 
 # My Rabbi, Friend etc. sent me this?
 
